@@ -1,4 +1,4 @@
-## The function 'makeCacheMatrix' takes as argument an object (here a matrix) on which one wishes to perform a computation
+## The function 'makeCacheMatrix' takes as argument an object (here an invertible matrix) on which one wishes to perform a computation
 ## (here compute the inverse of a matrix) and generates a "container" together with the facilities of setting,
 ## storing and retrieving the following values:
 ## i) the value of an object on which one wants to perform a (potentialy expensive) computation
@@ -11,7 +11,7 @@
 
 
 
-## This function takes a matrix as an argument and returns an "extended matrix"
+## This function takes an invertible matrix as an argument and returns an "extended matrix"
 ## consisting of a list of 4 functions allowing to:
 ## i) set the value of the matrix
 ## ii) get the value of the matrix
